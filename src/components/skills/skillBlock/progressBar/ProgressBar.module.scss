@@ -1,0 +1,62 @@
+@import "../../../common/styles/variables";
+@import "../../../common/styles/mixins";
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.singleSkill {
+  margin-bottom: 21px;
+
+  .label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6px;
+    margin-bottom: 4px;
+  }
+  .progress {
+    background-color: $bgProgress;
+    box-shadow: none;
+    .progressBar{
+      width: auto;
+      height: 15px;
+      background-color: $primaryColor;
+      box-shadow: none;
+      @include animation(progress-bar-stripes 2s linear infinite);
+      @include gradient-striped;
+      background-size: 40px 40px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

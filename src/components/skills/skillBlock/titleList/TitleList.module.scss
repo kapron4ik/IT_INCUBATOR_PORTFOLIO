@@ -1,0 +1,42 @@
+@import "../../../common/styles/variables";
+@import "../../../common/styles/mixins";
+
+.title {
+  border-bottom: 1px solid #626a8a;
+  padding-bottom: 13px;
+  font-size: 21px;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: left;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 3px;
+    background: #4c84ff;
+    bottom: -2px;
+    left: 0
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
