@@ -1,0 +1,34 @@
+@import '../common/styles/variables';
+@import '../common/styles/mixins';
+
+
+.projectsBlock {
+  min-height: 100vh;
+  padding: 40px 0;
+  background-color: $additionalBgColor;
+
+  .skillsContainer {
+    flex-direction: column;
+
+    .tittle {
+      @include textTitle
+    }
+    .skills {
+      //display: flex;
+      //justify-content: space-between;
+      //flex-wrap: wrap;
+      //align-items: flex-start;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+

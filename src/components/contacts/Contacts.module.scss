@@ -1,0 +1,82 @@
+@import '../common/styles/variables.scss';
+@import '../common/styles/mixins';
+
+.contactsBlock {
+  height: 100vh;
+  padding: 40px 0;
+  background-color: $secondBgColor;
+
+  .skillsContainer {
+
+    flex-direction: column;
+    align-items: center;
+
+
+    .tittle {
+      @include textTitle
+    }
+
+    .formBlock {
+      width: 690px;
+      height: 375px;
+      padding: 22px 30px 40px;
+      background-color: $BgColor;
+      border-radius: 10px;
+
+      div{
+        display: flex;
+        justify-content: space-between;
+        span {
+          width: 40px;
+        }
+      }
+
+      input {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 12px 0px;
+        font-size: 16px;
+        height: auto;
+        box-shadow: none !important;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 0;
+        background-color: $BgColor !important;
+        color: $textColor;
+        line-height: 1.5;
+        //background-clip: padding-box;
+        //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        &::placeholder {
+          color: $secondBgColor;
+          opacity: 1;
+        }
+      }
+
+      textarea {
+        resize: vertical;
+        height: 130px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 12px 0px;
+        font-size: 17px;
+        box-shadow: none !important;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 0;
+        background-color: $BgColor !important;
+        color: $textColor;
+        line-height: 1.5;
+        &::placeholder {
+          color: $secondBgColor;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+

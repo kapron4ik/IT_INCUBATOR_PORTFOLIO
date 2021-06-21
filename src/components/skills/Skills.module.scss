@@ -1,0 +1,30 @@
+@import "../common/styles/variables.scss";
+@import "../common/styles/mixins";
+
+.skillsBlock {
+  min-height: 100vh;
+  padding: 40px 0;
+  background-color: $secondBgColor;
+
+  .skillsContainer {
+    flex-direction: column;
+
+    .tittle {
+      @include textTitle
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+
+
+
+
+
+

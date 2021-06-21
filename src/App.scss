@@ -1,0 +1,32 @@
+@import './components/common/styles/variables.scss';
+
+.App {
+  text-align: center;
+  background-color: #171C32
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('components/common/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+a, span {
+  color: $textColor;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $textColor;
+  font-family: 'JosefinSans', sans-serif;
+  text-transform: uppercase;
+}
+
+/*.App .grid:nth-child(odd) {*/
+/*  background-color: #171C32;*/
+/*}*/
+
+/*.App .grid:nth-child(even) {*/
+/*  background-color: #202640;*/
+/*}*/
