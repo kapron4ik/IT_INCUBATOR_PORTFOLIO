@@ -8,6 +8,8 @@ const ModalContainer: React.FC<any> = (
         stack,
         description,
         imageModal,
+        linkGH,
+        linkPr,
         children
     }
 ) => {
@@ -22,6 +24,8 @@ const ModalContainer: React.FC<any> = (
             stack={stack}
             description={description}
             imageModal={imageModal}
+            linkGH={linkGH}
+            linkPr={linkPr}
         >
             {children}
         </Modal>}

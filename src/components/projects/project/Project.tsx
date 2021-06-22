@@ -14,6 +14,8 @@ type PropsType = {
     description: string
     stack: string
     imageModal: CSSProperties
+    linkGH: string
+    linkPr: string
 }
 
 function Project(props: PropsType) {
@@ -30,6 +32,8 @@ function Project(props: PropsType) {
                     stack={props.stack}
                     description={props.description}
                     imageModal={props.imageModal}
+                    linkGH={props.linkGH}
+                    linkPr={props.linkPr}
                 />
 
                 {/*<div className={styles.tittle}>*/}

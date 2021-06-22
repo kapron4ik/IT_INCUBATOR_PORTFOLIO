@@ -13,10 +13,25 @@
       @include textTitle
     }
 
+
     .skills {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      align-items: start;
+
+      .box1 {
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+      }
+      .box2 {
+        grid-column: 2/3;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+      }
     }
   }
 }
