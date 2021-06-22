@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.206bc24a.chunk.css",
-    "main.js": "/static/js/main.92d52d78.chunk.js",
-    "main.js.map": "/static/js/main.92d52d78.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.586df854.js",
-    "runtime-main.js.map": "/static/js/runtime-main.586df854.js.map",
-    "static/js/2.3de486c4.chunk.js": "/static/js/2.3de486c4.chunk.js",
-    "static/js/2.3de486c4.chunk.js.map": "/static/js/2.3de486c4.chunk.js.map",
-    "static/js/3.750eb52e.chunk.js": "/static/js/3.750eb52e.chunk.js",
-    "static/js/3.750eb52e.chunk.js.map": "/static/js/3.750eb52e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.206bc24a.chunk.css.map": "/static/css/main.206bc24a.chunk.css.map",
-    "static/js/2.3de486c4.chunk.js.LICENSE.txt": "/static/js/2.3de486c4.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/JosefinSans-Bold.5cc7b0d1.ttf",
-    "static/media/MyFoto.d80e8f3f.jpg": "/static/media/MyFoto.d80e8f3f.jpg",
-    "static/media/social-network.f1e99ff9.png": "/static/media/social-network.f1e99ff9.png"
+    "main.css": "/IT_INCUBATOR_PORTFOLIO/static/css/main.35a1eb16.chunk.css",
+    "main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/main.793405b8.chunk.js",
+    "main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/main.793405b8.chunk.js.map",
+    "runtime-main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.77f054c7.js",
+    "runtime-main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.77f054c7.js.map",
+    "static/js/2.52a6323e.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/2.52a6323e.chunk.js",
+    "static/js/2.52a6323e.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/2.52a6323e.chunk.js.map",
+    "static/js/3.750eb52e.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/3.750eb52e.chunk.js",
+    "static/js/3.750eb52e.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/3.750eb52e.chunk.js.map",
+    "index.html": "/IT_INCUBATOR_PORTFOLIO/index.html",
+    "static/css/main.35a1eb16.chunk.css.map": "/IT_INCUBATOR_PORTFOLIO/static/css/main.35a1eb16.chunk.css.map",
+    "static/js/2.52a6323e.chunk.js.LICENSE.txt": "/IT_INCUBATOR_PORTFOLIO/static/js/2.52a6323e.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/IT_INCUBATOR_PORTFOLIO/static/media/JosefinSans-Bold.5cc7b0d1.ttf",
+    "static/media/MyFoto.d80e8f3f.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/MyFoto.d80e8f3f.jpg",
+    "static/media/acordion.3a3eb0f2.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/acordion.3a3eb0f2.jpg",
+    "static/media/adaptive-layout.5db18389.png": "/IT_INCUBATOR_PORTFOLIO/static/media/adaptive-layout.5db18389.png",
+    "static/media/landing-page-v2.626b958e.png": "/IT_INCUBATOR_PORTFOLIO/static/media/landing-page-v2.626b958e.png",
+    "static/media/pingbuller.bd53885a.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/pingbuller.bd53885a.jpg",
+    "static/media/shophia.2febd200.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/shophia.2febd200.jpg",
+    "static/media/todo.e8e9ab04.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/todo.e8e9ab04.jpg",
+    "static/media/todolistimage.b758f7c7.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/todolistimage.b758f7c7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.586df854.js",
-    "static/js/2.3de486c4.chunk.js",
-    "static/css/main.206bc24a.chunk.css",
-    "static/js/main.92d52d78.chunk.js"
+    "static/js/runtime-main.77f054c7.js",
+    "static/js/2.52a6323e.chunk.js",
+    "static/css/main.35a1eb16.chunk.css",
+    "static/js/main.793405b8.chunk.js"
   ]
 }
