@@ -15,46 +15,37 @@
   position: fixed;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  //grid-auto-rows: minmax(90px, auto);
-  grid-auto-rows: 90px;
-  //grid-row-gap: 20px;
-  //grid-column-gap: 20px;
+  grid-template-rows: 90px 1fr;
   gap: 20px;
   width: 1000px;
-  height: 600px;
+  height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  flex-flow: column;
-  //align-items: center;
-  //justify-content: center;
   background-color: $secondBgColor;
   z-index: 21;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
 
   .icon {
     position: absolute;
     right: 20px;
     top: 17px;
-    color: #838282;
+    color: $textColor;
     font-size: 30px;
     cursor: pointer;
 
     &:hover {
-      color: #000000;
+      color: $primaryColor;
     }
   }
 
   .header {
     grid-column: 1 / 3;
-    grid-row: 1;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    //margin-bottom: 30px;
 
 
     h3 {
-      //padding-bottom: 8px;
       font-size: 30px;
       text-transform: uppercase;
       line-height: 40px;
@@ -63,11 +54,9 @@
 
   .image {
     grid-column: 1/ 2;
-    grid-row: 2 / 4;
-    height: 250px;
-    width: auto;
-    background: #4c84ff;
+    height:400px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 
 
@@ -75,7 +64,7 @@
 
   .info {
     grid-column: 2/3;
-    grid-row: 2 / 4;
+    //grid-row: 2 / 4;
     text-align: left;
 
     h5 {
@@ -104,6 +93,9 @@
         //bottom: 0;
         transition: bottom .5s;
         // animation: second 0.5s;
+        &:hover .circle, &:hover .centre {
+          color: $primaryColor;
+        }
       }
 
       .icSecond {
@@ -112,6 +104,9 @@
         //bottom: 0;
         transition: bottom .5s;
         // animation: second 0.5s;
+        &:hover .circle, &:hover .centre {
+          color: $primaryColor;
+        }
       }
 
       .centre {

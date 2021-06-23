@@ -9,7 +9,8 @@ function Header() {
 
     return (
         <div className={styles.headerBlock}>
-            <div className={styles.toggle} tabIndex={1}
+            <div className={styles.toggle}
+                 tabIndex={1}
                  onClick={isMenuChange}>
                 <div className={isActive ? `${styles.navIcon} ${styles.open}` : styles.navIcon}>
                     <span></span>

@@ -1,6 +1,6 @@
 {
-  "name": "IT_INCUBATOR_PORTFOLIO",
   "homepage": "http://kapron4ik.github.io/IT_INCUBATOR_PORTFOLIO",
+  "name": "IT_INCUBATOR_PORTFOLIO",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@iconify-icons/cib": "^1.1.0",
     "@iconify-icons/simple-icons": "^1.1.29",
+    "@iconify-icons/zondicons": "^1.1.0",
     "@iconify/react": "^1.1.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

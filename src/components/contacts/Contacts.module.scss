@@ -17,18 +17,18 @@
     }
 
     .formBlock {
-      width: 690px;
-      height: 375px;
+      max-width: 690px;
+      min-height: 375px;
       padding: 22px 30px 40px;
       background-color: $BgColor;
       border-radius: 10px;
 
-      div{
-        display: flex;
-        justify-content: space-between;
-        span {
-          width: 40px;
-        }
+
+
+      .box1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
       }
 
       input {
@@ -73,6 +73,12 @@
         &::placeholder {
           color: $secondBgColor;
           opacity: 1;
+        }
+      }
+
+      @media screen and (max-width: 650px){
+        .box1 {
+          grid-template-columns: 1fr;
         }
       }
     }

@@ -1253,6 +1253,11 @@
   resolved "https://registry.yarnpkg.com/@iconify-icons/simple-icons/-/simple-icons-1.1.29.tgz#15754153d8f2ce1ee2cd911ab095d17705a7cc15"
   integrity sha512-j1axZfKfNWC5ua5MovKyflrMu3LAD0yaknqcV/9MJVVcSofPEyYTmBsBtSTOkq1QhbuUqbCNqHjUJsDlJCN2cw==
 
+"@iconify-icons/zondicons@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/zondicons/-/zondicons-1.1.0.tgz#2a25f34c9d94d602b2ceeda313551198a2bcfbe5"
+  integrity sha512-bX/hIkvVkfdSyaGNb6oaKZanpfZZJdooieXwSiZ2PolLCEtyY8l0VF3EiSl+h8HDPKpG+9JS1eNFDqYXcVCUHQ==
+
 "@iconify/react@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.4.tgz#c778eddbaf196e55705d0bedff00d039dc1de8d3"

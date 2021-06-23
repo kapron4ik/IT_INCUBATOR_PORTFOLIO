@@ -35,10 +35,7 @@ const Modal: React.FC<PropsType> = (
         <div className={styles.background} onClick={() => showModal(false)}></div>
         <div className={styles.modal}>
             <div className={styles.header}><h3>{title}</h3></div>
-            {/*<div className={styles.main}>*/}
-            <div className={styles.image} style={imageModal}>
-
-            </div>
+            <div className={styles.image} style={imageModal}></div>
             <div className={styles.info}>
                 <h5>PROJECT INFO</h5>
                 <p>{description}</p>
@@ -58,11 +55,8 @@ const Modal: React.FC<PropsType> = (
                         </a>
                     </div>
                 </div>
-
             </div>
-            {/*</div>*/}
             <FontAwesomeIcon icon={faTimesCircle} className={styles.icon} onClick={() => showModal(false)}/>
-            {/*<i className={`${s.icon} icon-close`} onClick={() => showModal(false)}></i>*/}
             {children}
         </div>
     </>
