@@ -10,10 +10,10 @@ type PropsType = {
     description: string
 }
 
-export function ContactsBlock(props: PropsType) {
+export function ContactBlock(props: PropsType) {
 
     return (
-        <div className={styles.contactsBlock}>
+        <div className={styles.contactBlock}>
             <div className={styles.icon}>
                 <FontAwesomeIcon icon={props.icon}/>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projects.module.scss';
 import stylesContainer from '../common/styles/Container.module.css';
 import Project from './project/Project';
-import socialImage from '../../assets/image/social-network.png'
+import socialImage from '../../assets/image/cover/social-network.png'
 import ModalContainer from "../modals/ModalContainer";
 import adaptiveImage from '../../assets/image/cover/adaptive-layout.png'
 import shophia from '../../assets/image/preview/shophia.jpg'
@@ -10,6 +10,8 @@ import pingbuller from '../../assets/image/preview/pingbuller.jpg'
 import landingPage from '../../assets/image/cover/landing-page-v2.png'
 import accordion from '../../assets/image/preview/acordion.jpg'
 import todolist from '../../assets/image/cover/todolistimage.jpg'
+import todolist1 from '../../assets/image/cover/todolistimage-v1.jpg'
+import todolist2 from '../../assets/image/cover/todolistimage-v2.jpg'
 import todo from '../../assets/image/preview/todo.jpg'
 
 
@@ -44,14 +46,50 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/Accordion/'
         },
         {
-            image: {backgroundImage: `url(${todolist})`},
+            image: {backgroundImage: `url(${todolist1})`},
             imageModal: {backgroundImage: `url(${todo})`},
             title: 'To do List - JS',
             stack: 'CSS, HTML, JS',
             description: 'Where are we without a daily to-do list. It is executed in Java script and stores its data in the local storage',
             linkGH: 'https://github.com/kapron4ik/ToDo',
             linkPr: 'https://kapron4ik.github.io/ToDo/'
-        }
+        },
+        {
+            image: {backgroundImage: `url(${socialImage})`},
+            imageModal: {backgroundImage: `url(${todo})`},
+            title: 'Social Network',
+            stack: 'CSS, HTML, JS, REACT, REDUX, TS',
+            description: 'ЗАПОЛНИТЬ!!!',
+            linkGH: 'https://github.com/kapron4ik/IT_INCUBATOR_SN_TS',
+            linkPr: 'https://kapron4ik.github.io/IT_INCUBATOR_SN_TS/'
+        },
+        {
+            image: {backgroundImage: `url(${todolist})`},
+            imageModal: {backgroundImage: `url(${todo})`},
+            title: 'Counter',
+            stack: 'ЗАПОЛНИТЬ!!!',
+            description: '',
+            linkGH: 'https://github.com/kapron4ik/IT_INCUBATOR_COUNTER_REDUX2',
+            linkPr: 'https://kapron4ik.github.io/IT_INCUBATOR_COUNTER_REDUX2/'
+        },
+        {
+            image: {backgroundImage: `url(${todolist2})`},
+            imageModal: {backgroundImage: `url(${todo})`},
+            title: 'ToDo',
+            stack: 'ЗАПОЛНИТЬ!!!',
+            description: '',
+            linkGH: 'https://github.com/kapron4ik/IT_INCUBATOR_TodoList_TS',
+            linkPr: 'https://kapron4ik.github.io/IT_INCUBATOR_TodoList_TS/'
+        },
+        {
+            image: {backgroundImage: `url(${todolist})`},
+            imageModal: {backgroundImage: `url(${todo})`},
+            title: 'Card PACK',
+            stack: 'ЗАПОЛНИТЬ!!!',
+            description: '',
+            linkGH: 'https://github.com/kapron4ik/homeworks_16',
+            linkPr: 'https://kapron4ik.github.io/homeworks_16/'
+        },
     ]
 
     return (
