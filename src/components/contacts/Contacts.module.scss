@@ -66,7 +66,7 @@
         //background-clip: padding-box;
         //transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         &::placeholder {
-          color: $secondBgColor;
+          color: $bgProgress;
           opacity: 1;
         }
       }
@@ -89,7 +89,7 @@
         line-height: 1.5;
 
         &::placeholder {
-          color: $secondBgColor;
+          color: $bgProgress;
           opacity: 1;
         }
       }

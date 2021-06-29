@@ -6,6 +6,21 @@
   padding: 40px 0;
   background-color: $secondBgColor;
 
+  .cv{
+    background: $BgColor;
+    padding: 33px 30px 34px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+    button {
+      float: left;
+      a {
+        text-decoration: none;
+      }
+    }
+
+  }
+
   .skillsContainer {
     flex-direction: column;
 

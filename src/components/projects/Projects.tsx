@@ -2,25 +2,31 @@ import React from 'react';
 import styles from './Projects.module.scss';
 import stylesContainer from '../common/styles/Container.module.css';
 import Project from './project/Project';
-import socialImage from '../../assets/image/cover/social-network.png'
-import ModalContainer from "../modals/ModalContainer";
-import adaptiveImage from '../../assets/image/cover/adaptive-layout.png'
-import shophia from '../../assets/image/preview/shophia.jpg'
-import pingbuller from '../../assets/image/preview/pingbuller.jpg'
-import landingPage from '../../assets/image/cover/landing-page-v2.png'
-import accordion from '../../assets/image/preview/acordion.jpg'
-import todolist from '../../assets/image/cover/todolistimage.jpg'
-import todolist1 from '../../assets/image/cover/todolistimage-v1.jpg'
-import todolist2 from '../../assets/image/cover/todolistimage-v2.jpg'
-import todo from '../../assets/image/preview/todo.jpg'
+import shophia from '../../assets/image/cover/shophia.png'
+import shophiaPw from '../../assets/image/preview/shophia_Pw.jpg'
+import pingbuller from '../../assets/image/cover/pingbuller.jpg'
+import pingbullerPw from '../../assets/image/preview/pingbuller_Pw.jpg'
+import accordion from '../../assets/image/cover/acordion.jpg'
+import accordionPw from '../../assets/image/preview/acordion_Pw.jpg'
+import todolist1 from '../../assets/image/cover/todolist1.jpg'
+import todolist1Pw from '../../assets/image/preview/todolist1_Pw.jpg'
+import sn from '../../assets/image/cover/sn.png'
+import snPw from '../../assets/image/preview/sn_Pw.jpg'
+import counter from '../../assets/image/cover/counter.png'
+import counterPw from '../../assets/image/preview/counter_Pw.jpg'
+import todolist2 from '../../assets/image/cover/todolist2.jpg'
+import todolist2Pw from '../../assets/image/preview/todolist2_Pw.jpg'
+import cardPack from '../../assets/image/cover/cardPack.png'
+import cardPackPw from '../../assets/image/preview/cardPack_Pw.jpg'
+
 
 
 function Projects() {
 
     const projects = [
         {
-            image: {backgroundImage: `url(${adaptiveImage})`},
-            imageModal: {backgroundImage: `url(${shophia})`},
+            image: {backgroundImage: `url(${shophia})`},
+            imageModal: {backgroundImage: `url(${shophiaPw})`},
             title: 'Adaptive layout - Store',
             stack: 'CSS, HTML, JS, Adaptive layout',
             description: 'Work media with popUp, toTop, slider',
@@ -28,8 +34,8 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/Shophia/'
         },
         {
-            image: {backgroundImage: `url(${adaptiveImage})`},
-            imageModal: {backgroundImage: `url(${pingbuller})`},
+            image: {backgroundImage: `url(${pingbuller})`},
+            imageModal: {backgroundImage: `url(${pingbullerPw})`},
             title: 'Adaptive layout - Landing page',
             stack: 'CSS, HTML, Adaptive layout',
             description: 'Training project for practicing responsive layout',
@@ -37,8 +43,8 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/Pingbuller/'
         },
         {
-            image: {backgroundImage: `url(${landingPage})`},
-            imageModal: {backgroundImage: `url(${accordion})`},
+            image: {backgroundImage: `url(${accordion})`},
+            imageModal: {backgroundImage: `url(${accordionPw})`},
             title: 'CSS Accordion Slider',
             stack: 'CSS, HTML, JS',
             description: 'A feature of this project is the CSS accordion slider, adaptive layout is also applied',
@@ -47,7 +53,7 @@ function Projects() {
         },
         {
             image: {backgroundImage: `url(${todolist1})`},
-            imageModal: {backgroundImage: `url(${todo})`},
+            imageModal: {backgroundImage: `url(${todolist1Pw})`},
             title: 'To do List - JS',
             stack: 'CSS, HTML, JS',
             description: 'Where are we without a daily to-do list. It is executed in Java script and stores its data in the local storage',
@@ -55,8 +61,8 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/ToDo/'
         },
         {
-            image: {backgroundImage: `url(${socialImage})`},
-            imageModal: {backgroundImage: `url(${todo})`},
+            image: {backgroundImage: `url(${sn})`},
+            imageModal: {backgroundImage: `url(${snPw})`},
             title: 'Social Network',
             stack: 'CSS, HTML, JS, REACT, REDUX, TS',
             description: 'ЗАПОЛНИТЬ!!!',
@@ -64,8 +70,8 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/IT_INCUBATOR_SN_TS/'
         },
         {
-            image: {backgroundImage: `url(${todolist})`},
-            imageModal: {backgroundImage: `url(${todo})`},
+            image: {backgroundImage: `url(${counter})`},
+            imageModal: {backgroundImage: `url(${counterPw})`},
             title: 'Counter',
             stack: 'ЗАПОЛНИТЬ!!!',
             description: '',
@@ -74,7 +80,7 @@ function Projects() {
         },
         {
             image: {backgroundImage: `url(${todolist2})`},
-            imageModal: {backgroundImage: `url(${todo})`},
+            imageModal: {backgroundImage: `url(${todolist2Pw})`},
             title: 'ToDo',
             stack: 'ЗАПОЛНИТЬ!!!',
             description: '',
@@ -82,8 +88,8 @@ function Projects() {
             linkPr: 'https://kapron4ik.github.io/IT_INCUBATOR_TodoList_TS/'
         },
         {
-            image: {backgroundImage: `url(${todolist})`},
-            imageModal: {backgroundImage: `url(${todo})`},
+            image: {backgroundImage: `url(${cardPack})`},
+            imageModal: {backgroundImage: `url(${cardPackPw})`},
             title: 'Card PACK',
             stack: 'ЗАПОЛНИТЬ!!!',
             description: '',

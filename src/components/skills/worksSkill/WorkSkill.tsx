@@ -9,8 +9,8 @@ export function WorkSkill() {
         <div className={styles.skillsBlock}>
             <TitleList title={'Experince'}/>
             <EducationBar
-                name={'Freelance'}
-                degree={'Front-end developer'}
+                name={'Front-end developer'}
+                degree={'Freelance'}
                 year={'2021-Until now'}
                 description={`Refactoring;
                 bug fixing;
@@ -18,8 +18,8 @@ export function WorkSkill() {
                 customs component development`}
             />
             <EducationBar
-                name={'Vents'}
-                degree={'Design engineer'}
+                name={'Design engineer'}
+                degree={'Vents'}
                 year={'2018-Until now'}
                 description={`Production and sale of household, commercial and industrial ventilation.
                 
@@ -28,11 +28,11 @@ export function WorkSkill() {
                               support of products during production.`}
             />
             <EducationBar
-                name={'RASEC UKRAINE'}
-                degree={'Deputy Head of the Design Department'}
+                name={'Deputy Head of the Design Department'}
+                degree={'RASEC UKRAINE'}
                 year={'2015-2018'}
                 description={`Development and production of commercial equipment.
-                
+       
                 Control and coordination of the department's work;
                 development of individual projects;
                 development of a detailed material specification;
@@ -42,8 +42,8 @@ export function WorkSkill() {
                 implementation of international practices in production`}
             />
             <EducationBar
-                name={'Argus-service'}
-                degree={'Head of the design department'}
+                name={'Head of the design department'}
+                degree={'Argus-service'}
                 year={'2014 - 2015'}
                 description={`Development and production of boiler plants and complexes.
                 
@@ -57,8 +57,8 @@ export function WorkSkill() {
 `}
             />
             <EducationBar
-                name={'Corum Group'}
-                degree={'Design engineer'}
+                name={'Design engineer'}
+                degree={'Corum Group'}
                 year={'2010 - 2014'}
                 description={`Development and production of mining equipment.
                 

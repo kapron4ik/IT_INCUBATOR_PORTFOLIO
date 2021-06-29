@@ -5,14 +5,28 @@ import {CodingSkill} from "./codingSkill/CodingSkill";
 import {LanguageSkill} from './languageSkill/LanguageSkill';
 import {EducationSkill} from './educationSkill/EducationSkill';
 import {WorkSkill} from "./worksSkill/WorkSkill";
+import {Icon} from "@iconify/react";
+import portfolioIcon from "@iconify-icons/zondicons/portfolio";
+import Button from "../common/components/button/Button";
+import {faDownload} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 function Skills() {
     return (
         <div className={styles.skillsBlock} id={'skills'}>
+
             <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
                 <h2 className={styles.tittle}>My
                     <span>skills</span></h2>
+                <div className={styles.cv}>
+                    <Button>
+                        <a href="https://drive.google.com/file/d/1EA-i2bzeKxrhWBQywlBDESx2LOZ4yo9V/view?usp=sharing"
+                               target="_blank">
+                        <FontAwesomeIcon icon={faDownload}/> Download My CV</a>
+                    </Button>
+
+                </div>
                 <div className={styles.skills}>
                     {/*    <Skill*/}
                     {/*        title={"Sass/Scss"}*/}

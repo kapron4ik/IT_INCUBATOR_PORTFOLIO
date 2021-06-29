@@ -9,6 +9,15 @@
   background-color: $BgColor;
   padding: 40px 0;
 
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+
   .photo {
     height: auto;
     width: auto;
@@ -34,7 +43,7 @@
       position: relative;
       z-index: 1;
       height: auto;
-      width: 420px;
+      width: 440px;
       max-width: 100%;
       vertical-align: middle;
     }
@@ -73,6 +82,23 @@
       @include textTitle
     }
 
+    h4 {
+      margin-top: 0;
+    }
+
+    h5{
+      margin: 0;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+      li {
+        color: $textColor;
+        text-align: left
+      }
+    }
+
     button {
       margin-top: 40px;
     }
@@ -87,7 +113,7 @@
   @media screen and (max-width: 550px) {
     .boxInfo {
       .name {
-        font-size:30px;
+        font-size: 30px;
       }
     }
   }
