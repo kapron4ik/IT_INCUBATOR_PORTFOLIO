@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/IT_INCUBATOR_PORTFOLIO/static/css/main.5c01901e.chunk.css",
-    "main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/main.851f11ce.chunk.js",
-    "main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/main.851f11ce.chunk.js.map",
-    "runtime-main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.ec096203.js",
-    "runtime-main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.ec096203.js.map",
-    "static/js/2.49a84b22.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/2.49a84b22.chunk.js",
-    "static/js/2.49a84b22.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/2.49a84b22.chunk.js.map",
-    "static/js/3.405fcd33.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/3.405fcd33.chunk.js",
-    "static/js/3.405fcd33.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/3.405fcd33.chunk.js.map",
+    "main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/main.89a10fab.chunk.js",
+    "main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/main.89a10fab.chunk.js.map",
+    "runtime-main.js": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.955852a3.js",
+    "runtime-main.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/runtime-main.955852a3.js.map",
+    "static/js/2.e82271d4.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/2.e82271d4.chunk.js",
+    "static/js/2.e82271d4.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/2.e82271d4.chunk.js.map",
+    "static/js/3.0984d905.chunk.js": "/IT_INCUBATOR_PORTFOLIO/static/js/3.0984d905.chunk.js",
+    "static/js/3.0984d905.chunk.js.map": "/IT_INCUBATOR_PORTFOLIO/static/js/3.0984d905.chunk.js.map",
     "index.html": "/IT_INCUBATOR_PORTFOLIO/index.html",
     "static/css/main.5c01901e.chunk.css.map": "/IT_INCUBATOR_PORTFOLIO/static/css/main.5c01901e.chunk.css.map",
-    "static/js/2.49a84b22.chunk.js.LICENSE.txt": "/IT_INCUBATOR_PORTFOLIO/static/js/2.49a84b22.chunk.js.LICENSE.txt",
+    "static/js/2.e82271d4.chunk.js.LICENSE.txt": "/IT_INCUBATOR_PORTFOLIO/static/js/2.e82271d4.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/IT_INCUBATOR_PORTFOLIO/static/media/JosefinSans-Bold.5cc7b0d1.ttf",
     "static/media/MyFoto.d80e8f3f.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/MyFoto.d80e8f3f.jpg",
     "static/media/acordion.5774aee6.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/acordion.5774aee6.jpg",
@@ -32,9 +32,9 @@
     "static/media/todolist2_Pw.b3dd1901.jpg": "/IT_INCUBATOR_PORTFOLIO/static/media/todolist2_Pw.b3dd1901.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec096203.js",
-    "static/js/2.49a84b22.chunk.js",
+    "static/js/runtime-main.955852a3.js",
+    "static/js/2.e82271d4.chunk.js",
     "static/css/main.5c01901e.chunk.css",
-    "static/js/main.851f11ce.chunk.js"
+    "static/js/main.89a10fab.chunk.js"
   ]
 }
