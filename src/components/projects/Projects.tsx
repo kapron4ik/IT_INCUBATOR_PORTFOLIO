@@ -18,7 +18,9 @@ import todolist2 from '../../assets/image/cover/todolist2.jpg'
 import todolist2Pw from '../../assets/image/preview/todolist2_Pw.jpg'
 import cardPack from '../../assets/image/cover/cardPack.png'
 import cardPackPw from '../../assets/image/preview/cardPack_Pw.jpg'
-
+// @ts-ignore
+import Bounce from 'react-reveal/Bounce';
+// const Bounce = require('react-reveal/Bounce');
 
 
 function Projects() {
@@ -109,6 +111,7 @@ function Projects() {
                     {/*    title={"My first project"}*/}
                     {/*    stack={'HTML, REACT, REDUX'}*/}
                     {/*    description={"Lorem ipsum dolor sit amet, consectetur adipisicing ptatem."}/>*/}
+                    <Bounce top>
                     {
                         projects.map(p => {
                             return <Project
@@ -121,6 +124,7 @@ function Projects() {
                                 linkPr={p.linkPr}/>
                         })
                     }
+                    </Bounce>
                 </div>
 
             </div>
