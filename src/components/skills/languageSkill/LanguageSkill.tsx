@@ -13,8 +13,8 @@ export function LanguageSkill() {
     return (
         <div className={styles.skillsBlock}>
             <TitleList title={'Language skill'}/>
-            <ProgressBar progress={progressEn} skill={'English'} progressList={progressEn.width}/>
-            <ProgressBar progress={progressFr} skill={'French'} progressList={progressFr.width}/>
+            <ProgressBar progress={progressEn} skill={'English (Pre-Intermediate - in progress)'} progressList={progressEn.width}/>
+            <ProgressBar progress={progressFr} skill={'French (Intermediate - in progress)'} progressList={progressFr.width}/>
             <ProgressBar progress={progressRu} skill={'Russian'} progressList={progressRu.width}/>
             <ProgressBar progress={progressUk} skill={'Ukrainian'} progressList={progressUk.width}/>
         </div>

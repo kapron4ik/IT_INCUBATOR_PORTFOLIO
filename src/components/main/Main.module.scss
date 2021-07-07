@@ -86,18 +86,16 @@
       margin-top: 0;
     }
 
-    h5{
+    h5 {
       margin: 0;
     }
 
-    ul {
-      margin-left: 20px;
-      margin-top: 10px;
-      li {
-        color: $textColor;
-        text-align: left
-      }
+    p {
+      max-width: 480px;
+      color: $textColor;
+      text-align: left
     }
+
 
     button {
       margin-top: 40px;

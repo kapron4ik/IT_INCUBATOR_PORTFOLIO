@@ -66,12 +66,14 @@
   }
 
   .description {
-    p {
+    li {
+      list-style-type: none;
       font-size: 16px;
       color: $textColor;
       line-height: 1.625;
       hyphens: auto;
       margin-bottom: 0;
+      //margin-left: 10px;
     }
   }
 

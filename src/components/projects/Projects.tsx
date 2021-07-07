@@ -111,7 +111,7 @@ function Projects() {
                     {/*    title={"My first project"}*/}
                     {/*    stack={'HTML, REACT, REDUX'}*/}
                     {/*    description={"Lorem ipsum dolor sit amet, consectetur adipisicing ptatem."}/>*/}
-                    <Bounce top>
+                    {/*<Bounce top>*/}
                     {
                         projects.map(p => {
                             return <Project
@@ -124,7 +124,7 @@ function Projects() {
                                 linkPr={p.linkPr}/>
                         })
                     }
-                    </Bounce>
+                    {/*</Bounce>*/}
                 </div>
 
             </div>

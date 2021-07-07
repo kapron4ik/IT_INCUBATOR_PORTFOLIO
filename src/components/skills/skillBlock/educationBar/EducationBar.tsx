@@ -5,7 +5,7 @@ import styles from './EducationBar.module.scss';
 type PropsType = {
     name: string
     degree: string
-    description: string
+    description: Array<string>
     year: string
 }
 
@@ -20,7 +20,10 @@ function EducationBar(props: PropsType) {
                 </span>
             </p>
             <div className={styles.description}>
-                <p>{props.description}</p>
+                <ul>
+                    {props.description.map(d  => <li>{d}</li>)}
+                </ul>
+                {/*<p>{props.description}</p>*/}
             </div>
         </div>
     );

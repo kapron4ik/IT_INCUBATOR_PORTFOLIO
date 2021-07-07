@@ -33,12 +33,12 @@ function Skills() {
                     <div className={styles.box1}>
                         <Bounce top>
                             <CodingSkill/>
+                            <LanguageSkill/>
                             <EducationSkill/>
                         </Bounce>
                     </div>
                     <div className={styles.box2}>
                         <Bounce top>
-                            <LanguageSkill/>
                             <WorkSkill/>
                         </Bounce>
                     </div>

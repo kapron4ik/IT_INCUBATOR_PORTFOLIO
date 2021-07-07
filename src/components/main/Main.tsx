@@ -70,7 +70,7 @@ function Main() {
                 }} />
 
             <div className={styles.photo}>
-                <Tilt className="Tilt" options={{ max : 10, scale:0.98 }}>
+                <Tilt className="Tilt" options={{ max : 2, scale:0.98 }}>
                 <img src={myFoto} alt="myFoto"/>
                 </Tilt>
             </div>
@@ -88,13 +88,14 @@ function Main() {
                     typingDelay={1500}
                 /></h4>
 
-                <h5>Personal qualities</h5>
-                <ul>
-                    <li>focused on the result: worked for 3 months seven days a week to complete the project;</li>
-                    <li>self-disciplined: I go to training 4 times a week;</li>
-                    <li>purposeful: I changed my life to be here;</li>
-                    <li>communicative: at each place of work I found a common language with the team.</li>
-                </ul>
+                <h5>About me</h5>
+                <p>Hello, I’m a experienced front-end developer. I have experience in creating
+                    SPA using React / Redux / TypeScript. Now I am improving my current skills
+                    and expanding them with new technologies. I devote my free time to
+                    Codewars as well as learning English. I'm planing to study Node.js, because
+                    my next focus is to become a Full-Stack Developer. Open for your
+                    suggestions.</p>
+
                 <Button onClick={() => {
                     window.location.href = "#" + 'projects'
                 }}><Icon icon={portfolioIcon}/> Portfolio</Button>
